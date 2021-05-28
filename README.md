@@ -45,5 +45,5 @@ An Android App that allows you to create, save and edit multiple savings plans.
 * **SwipeRevealLayout** - Easy, flexible and powerful Swipe Layout for Android.  
 
 ## __Application Icon Used:__  
-> ![App Icon](https://www.flaticon.com/free-icon/savings_4256850?term=coins%20jar&related_id=4256850)  
+> ![App Icon](app-icon)  
 > <div>Icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
