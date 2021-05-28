@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/headerHint"
+        android:singleLine="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPrincipal"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintPrincipal"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="@string/dollar"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@id/txtPrincipal" />
+
+    <TextView
+        android:id="@+id/txtPrincipal"
+        android:layout_width="@dimen/displayInfo"
+        android:layout_height="@dimen/displayHeight"
+        android:text="@string/principal"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editPrincipal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editHeader"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <EditText
+        android:id="@+id/editYears"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintYears"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtYears"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@id/txtYears" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCompFreq"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/txtYears"
+        android:layout_width="@dimen/displayInfo"
+        android:layout_height="@dimen/displayHeight"
+        android:text="@string/years"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editYears"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRate"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <EditText
+        android:id="@+id/editCompFreq"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintCompFreq"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtCompPer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@id/txtCompPer" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="250dp"
+        android:layout_height="83dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculate"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/txtCompPer"
+        android:layout_width="@dimen/displayInfo"
+        android:layout_height="@dimen/displayHeight"
+        android:singleLine="true"
+        android:text="@string/compfreq"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editCompFreq"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtYears"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editRate"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintRate"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtRate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@id/txtRate" />
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="@dimen/displayInfo"
+        android:layout_height="@dimen/displayHeight"
+        android:text="@string/rate"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editRate"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrincipal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtInflation"
+        android:layout_width="@dimen/displayInfo"
+        android:layout_height="@dimen/displayHeight"
+        android:text="@string/inflation"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editInflation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editInflation"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:inputType="numberDecimal"
+        android:hint="@string/hintInflation"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtInflation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@id/txtInflation"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

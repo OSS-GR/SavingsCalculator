@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="headerHint">Add a Name</string>
+    <string name="allplans">/data/user/0/com.example.savingscalculator/files/createdplans.csv</string>
+    <string name="hintInflation">Inflation Rate %</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SavingsCalculator</string>
+    <string name="header1">My Plan</string>
+    <!--Display Information-->
+    <string name="principal">Initial Amount:</string>
+    <string name="rate">Interest rate:</string>
+    <string name="years">Years:</string>
+    <string name="compfreq">Compounding Period:</string>
+    <string name="inflation">Inflation rate:</string>
+    <string name="dollar">$</string>
+    <!-- Input Hints-->>
+    <string name="hintPrincipal">Principal Amount in $</string>
+    <string name="hintRate">Interest Rate Decimal</string>
+    <string name="hintYears">Years in Account</string>
+    <string name="hintCompFreq">Frequency</string>
+    <!-- Calculate-->
+    <string name="btnCalculate">Calculate</string>
+
+    <!--Splash Screen-->
+    <string name="splashWelcome">Welcome to your private savings heaven</string>
+    <string name="title_activity_home">ScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="headerHint">Add a Name</string>
+    <string name="allplans">/data/user/0/com.example.savingscalculator/files/createdplans.csv</string>
+    <string name="hintInflation">(Optional) </string>
+
+</resources>
