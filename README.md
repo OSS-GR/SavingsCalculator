@@ -8,6 +8,7 @@ An Android App that allows you to create, save and edit multiple savings plans.
   - You can also export the savings plans and their contents into a CSV file that will be located in the Documents folder of your device.  
   - 
 ## Upcoming Features:  
+* Add option to take periodical deposits into account when calculating future savings plan balance.
 * Switch from a CVS-based storage system for data structures to a SQL Database.
 * Create option for Searching for plans.
 * Expand on exporting options,i.e. Cloud,Email,Messaging Apps.
