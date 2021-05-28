@@ -17,7 +17,7 @@ An Android App that allows you to create, save and edit multiple savings plans.
    
 # Looks & Feel:
 **1. A GIF displays the first time you boot the app, greeting you:**  
-![Splash Screen](/gifs/Splash-Screen-Showcase.gif)
+<img src=/gifs/Splash-Screen-Showcase.gif width="500">
 
 **2. The main activity is a Recycler View that contains the swipe items, an add button to add plans to the Recycler View and an export button to save all your plans in your Documents folder:**  
 ![Main Activity](/gifs/Main-Activity.gif)  
