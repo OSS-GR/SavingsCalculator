@@ -17,25 +17,25 @@ An Android App that allows you to create, save and edit multiple savings plans.
    
 # Looks & Feel:
 **1. A GIF displays the first time you boot the app, greeting you:**  
-<img src=/gifs/Splash-Screen-Showcase.gif width="300">
+<img src=/gifs/Splash-Screen-Showcase.gif alt="Splash Screen" width="300">
 
 **2. The main activity is a Recycler View that contains the swipe items, an add button to add plans to the Recycler View and an export button to save all your plans in your Documents folder:**  
-![Main Activity](/gifs/Main-Activity.gif)  
+<img src=/gifs/Main-Activity.gif alt="Main Activity" width="300">
   
 **3. Selecting "Add" displays the following dialog:**  
-![Main Activity Add](/gifs/Main-Activity-Add.gif)  
+<img src=/gifs/Main-Activity-Add.gif alt="Main Activity Add" width="300">
   
 **4. Selecting "Export" requests permission if it is the first time doing it. When exporting is done a message will display at the bottom of the screen:**  
-![Main Activity Export](/gifs/Main-Activity-Export.gif)  
+<img src=/gifs/Main-Activity-Export.gif alt="Main Activity Export" width="300">
   
 **5. You can swipe to reveal edit and delete:**  
-![Main Activity Delete Action](/gifs/Main-Activity-Delete.gif)  
+<img src=/gifs/Main-Activity-Delete.gif alt="Main Activity Delete" width="300">
   
 **6. Selecting edit allows you to access the plan's calculator activity:**  
-![Main Activity Edit Action](/gifs/Main-Activity-Edit.gif)  
+<img src=/gifs/Main-Activity-Edit.gif alt="Main Activity Edit" width="300">
 
 **7. Once in the Calculator Activity, you can fill in the required fields and calculate your future savings account balance:**  
-![Calculator Activity](/gifs/Calculator-Activity.gif)  
+<img src=/gifs/Calculator-Activity.gif alt="Calculator Activity" width="300">
 
 
 ## __Open-Source 3rd Party Libraries Used:__
